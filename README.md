@@ -11,7 +11,7 @@ A simple and extensible authentication template built with **Next.js**, **NextAu
 | Database        | [MongoDB](https://www.mongodb.com/)                                        |
 | ODM             | [Mongoose](https://mongoosejs.com/)                                        |
 | Hashing         | [bcryptjs](https://www.npmjs.com/package/bcryptjs)                         |
-
+| Validation      | [Zod](https://zod.dev/)                                                    |
 
 ## Getting Started
 
