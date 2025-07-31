@@ -18,7 +18,9 @@ export const register = async (values: UserAccount) => {
         if(userFound){ return { error: 'Email already exists!' } }
         const hashedPassword = await bcrypt.hash(password, 10);
         const user = new User({ name, email, password: hashedPassword, });
-        // const savedUser = await user.save();
+        // in production, remove this comment and use the "savedUser" variable however you please.
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const savedUser = await user.save();
 
     } catch(e){
         console.log(e);
