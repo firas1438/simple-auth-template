@@ -97,7 +97,7 @@ const Particles: React.FC<ParticlesProps> = ({
   moveParticlesOnHover = false,
   particleHoverFactor = 1,
   alphaParticles = false,
-  particleBaseSize = 100,
+  particleBaseSize = 50,
   sizeRandomness = 1,
   cameraDistance = 20,
   disableRotation = false,
@@ -233,6 +233,7 @@ const Particles: React.FC<ParticlesProps> = ({
     sizeRandomness,
     cameraDistance,
     disableRotation,
+    particleColors,
   ]);
 
   return (

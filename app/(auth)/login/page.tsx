@@ -29,7 +29,7 @@ export default function Login() {
           
           <CardFooter className="flex-col items-center pb-4 pt-4">
             <p className="text-sm text-default-500 text-center">
-              Don't have an account? <Link href="/signup" className="text-success font-medium hover:underline"> Sign up here </Link>
+               Don&apos;t have an account? <Link href="/signup" className="text-success font-medium hover:underline"> Sign up here </Link>
             </p>
           </CardFooter>
 

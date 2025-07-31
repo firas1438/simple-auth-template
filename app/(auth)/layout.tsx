@@ -1,7 +1,6 @@
 
 
 "use client";
-import { motion } from "framer-motion";
 import NavBar from "@/components/navbar";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
